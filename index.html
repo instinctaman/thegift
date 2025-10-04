@@ -275,7 +275,7 @@
 
       @media screen and (max-width:748px) {
         .carouse {
-          margin-top: 45px !important;
+          margin-top: 120px !important;
         }
       }
     </style>
@@ -612,52 +612,13 @@
             </div>
           </details>
         </header-drawer>
-        <div class="search_location_section">
-
-          <div class="location_sec" style="display: none;">
-            <div class="locationsDropdown"></div>
-
-            <div class="select_city_sec" onClick="changeCity()">
-
-              <div class="city_change">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12.519" height="15.079" viewBox="0 0 12.519 15.079">
-                  <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(0.5 0.5)">
-                    <path id="Path_29346" data-name="Path 29346"
-                      d="M16.019,7.259c0,4.48-5.759,8.319-5.759,8.319S4.5,11.739,4.5,7.259a5.759,5.759,0,0,1,11.519,0Z"
-                      transform="translate(-4.5 -1.5)" fill="none" stroke="#020919" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="1" />
-                    <path id="Path_29347" data-name="Path 29347"
-                      d="M17.34,12.42a1.92,1.92,0,1,1-1.92-1.92A1.92,1.92,0,0,1,17.34,12.42Z"
-                      transform="translate(-9.66 -6.66)" fill="none" stroke="#020919" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="1" />
-                  </g>
-                </svg>
-
-                <div class="city_name"></div>
-              </div>
-              <div class="change_city"><svg xmlns="http://www.w3.org/2000/svg" width="14.483" height="7.741"
-                  viewBox="0 0 14.483 7.741">
-                  <g id="Icon_feather-arrow-down" data-name="Icon feather-arrow-down"
-                    transform="translate(-6.793 -17.293)">
-                    <path id="Path_29349" data-name="Path 29349" d="M20.569,18l-6.534,6.534L7.5,18"
-                      transform="translate(0)" fill="none" stroke="#020919" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="1" />
-                  </g>
-                </svg>
-
-              </div>
-            </div>
-          </div>
-
-        </div><a href="#" class="header__heading-link link link--text focus-inset" title="The Gift Studio"><img
+        <a href="#" class="header__heading-link link link--text focus-inset" title="The Gift Studio"><img
             src="logo_knot_1.png" alt="Mobile logo" width="300" height="32.94797687861272"
             class="header__heading-logo motion-reduce small-hide">
           <div class="mobile_logo large-up-hide medium-hide">
             <img loading="lazy" src="logo_knot_1.png" alt="mobile_svg_logo">
           </div>
         </a>
-        <h1 class="visually-hidden">Buy Gifts Online - Presents, Gift
-          Hampers and Customized Gifts</h1>
         <nav class="header__inline-menu city_menu">
 
           <ul class="list-menu list-menu--inline" role="list">
@@ -800,14 +761,12 @@
             </li>
 
           </ul>
-        </nav><a href="#" class="header__heading-link link link--text focus-inset" title="The Gift Studio"><img
-            src="logo_knot_1.png" alt="Mobile logo"
-            srcset="logo_knot_1.png;width=50 50w, logo_knot_1.png;width=100 100w, logo_knot_1.png;width=150 150w, logo_knot_1.png;width=200 200w, logo_knot_1.png;width=250 250w, logo_knot_1.png;width=300 300w, logo_knot_1.png;width=400 400w, logo_knot_1.png 500w"
-            width="300" height="32.94797687861272" class="header__heading-logo motion-reduce small-hide">
-          <div class="mobile_logo large-up-hide medium-hide">
-            <!-- <img src="https://cdn.shopify.com/s/files/1/0689/3014/2515/files/logo-wo-com.svg" alt="mobile_svg_logo" loading="lazy">  -->
-          </div>
-        </a>
+        </nav>
+        
+        <div class="d-flex justify-content-center">
+          <div class="blink desktop"><span class="texting">Festive Specials Starting at Just </span><span
+              class="blink2"> ₹99!</span></div>
+        </div>
         <div class="header__icons">
 
           <div class="corporate_link_sec small-hide">
@@ -818,6 +777,8 @@
           </div>
 
         </div>
+        <div class="blink mobile"><span class="texting">Festive Specials Starting at Just </span><span class="blink2">
+            ₹99!</span></div>
       </header>
 
     </sticky-header>
@@ -1677,7 +1638,20 @@
             padding-bottom: 20px;
           }
         }
+        .market {
+          width: 100%;
+          background: rgb(111, 22, 114);
+          text-align: center;
+          padding: 10px 0;
+          border-radius: 5px;
+        }
+        .mart-text {
+          color: white;
+        }
       </style>
+      <div class="market">
+        <span class="mart-text">Special Price for Corporate Gifting & Bulk Orders</span>
+      </div>
       <div
         class="image-with-text page-width wedding_gift_section image-with-text--no-overlap  isolate section-template--24555788763443__1a2d7d67-33da-4b9e-89eb-9891e98752d6-padding"
         style padding-top: 0px; id="About">
@@ -1710,7 +1684,8 @@
                   gifting
                   simple, elegant, and unforgettable.
                 </p>
-              </div><a href="javascript/" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              </div>
+              <a href="javascript/" data-bs-toggle="modal" data-bs-target="#exampleModal"
                 class="button font_weight_400 cmn_btn button--primary">
                 Enquire Now
               </a>
@@ -1869,7 +1844,8 @@
             }
           }
         </style>
-
+        <div class="blink"><span class="texting">Festive Specials Starting at Just </span><span class="blink2">
+            ₹99!. </span></div>
         <div
           class="image-with-text page-width wedding_gift_section wedding_gift_section1  image-with-text--no-overlap  isolate section-template--24555788763443__1a2d7d67-33da-4b9e-89eb-9891e98752d6-padding"
           id="Why_choose">
@@ -1882,7 +1858,7 @@
                 class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt gradient color-background-1 content-container"
                 style="padding:10px !important;">
                 <h2 class="image-with-text__heading font_xxl ">
-                  Why people choose us
+                  Why people choose us?
                 </h2>
                 <div class="image-with-text__text font_md font_weight_400 color_black rte body">
                   <p>At Gift Shop Hive, we offer affordable yet
@@ -2270,6 +2246,7 @@
           }
         }
       </style>
+      
       <section
         class="curated_category_sec section_margin section-template--24555788763443__popular_categories_fWTBcV-padding">
         <!-- Left flower image with srcset -->
@@ -2302,19 +2279,36 @@
                   width="846" height="40">
               </div>
             </div>
+            <!-- Button trigger modal -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="top: 15%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="padding: 0;">
+        <img src="image/curated_gift/coorporate.png" class="w-100" alt="">
+      </div>
+    </div>
+  </div>
+</div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    
             <div id="Slider-template--24555788763443__popular_categories_fWTBcV"
               class="populer_slider page-width grid grid--3-col-desktop grid--2-col-tablet-down  slider slider--desktop slider--tablet grid--peek">
               <div id="Slide-template--24555788763443__popular_categories_fWTBcV-1"
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/coorporate.png" sizes="(max-width: 768px) 141px, 231px"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/coorporate.png" data-image-hd="image/curated_gift/coorporate.png" sizes="(max-width: 768px) 141px, 231px"
                         alt="Birthday Selection" width="900" height="1147" loading="eager" decoding="async">
                     </picture>
                   </div>
                   <div class="text_area">
-                    <p class="color_white text_sm">Birthday
+                    <p class="color_white text_sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Birthday
                       Selection</p>
                   </div>
                 </div>
@@ -2324,13 +2318,13 @@
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/Murti.png" sizes="(max-width: 768px) 141px, 231px"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/Murti.png" data-image-hd="image/curated_gift/Murti.png" sizes="(max-width: 768px) 141px, 231px"
                         alt="Anniversary Range" width="900" height="1148" loading="eager" decoding="async">
                     </picture>
                   </div>
                   <div class="text_area">
-                    <p class="color_white text_sm">Murtiya</p>
+                    <p class="color_white text_sm">Statues</p>
                   </div>
                 </div>
 
@@ -2339,8 +2333,8 @@
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/anniversary.png" sizes="(max-width: 768px) 141px, 231px"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/anniversary.png" data-image-hd="image/curated_gift/anniversary.png" sizes="(max-width: 768px) 141px, 231px"
                         alt="Wedding Series" width="900" height="1148" loading="eager" decoding="async">
                     </picture>
                   </div>
@@ -2355,8 +2349,8 @@
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/home.png" sizes="(max-width: 768px) 141px, 231px" alt="Home Decor"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/home.png" data-image-hd="image/curated_gift/home.png" sizes="(max-width: 768px) 141px, 231px" alt="Home Decor"
                         width="900" height="1148" loading="lazy" decoding="async">
                     </picture>
                   </div>
@@ -2370,8 +2364,8 @@
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/curated gift.png" sizes="(max-width: 768px) 141px, 231px"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/curated gift.png" data-image-hd="image/curated_gift/curated gift.png" sizes="(max-width: 768px) 141px, 231px"
                         alt="Couple Games" width="900" height="1148" loading="lazy" decoding="async">
                     </picture>
                   </div>
@@ -2385,8 +2379,8 @@
                 class="populer_sec  collection-list__item grid__item  slider__slide">
                 <div class="image_text_sec">
                   <div class="image_sec">
-                    <picture>
-                      <img src="image/curated_gift/key_chain.png" sizes="(max-width: 768px) 141px, 231px"
+                    <picture class="lightbox-gallery">
+                      <img src="image/curated_gift/key_chain.png" data-image-hd="image/curated_gift/key_chain.png" sizes="(max-width: 768px) 141px, 231px"
                         alt="Couple Games" width="900" height="1148" loading="lazy" decoding="async">
                     </picture>
                   </div>
@@ -2414,7 +2408,45 @@
           </slider-component>
         </div>
       </section>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>// Create a lightbox
+(function() {
+  var $lightbox = $("<div class='lightbox'></div>");
+  var $img = $("<img>");
+  var $caption = $("<p class='caption'></p>");
 
+  // Add image and caption to lightbox
+
+  $lightbox
+    .append($img)
+    .append($caption);
+
+  // Add lighbox to document
+
+  $('body').append($lightbox);
+
+  $('.lightbox-gallery img').click(function(e) {
+    e.preventDefault();
+
+    // Get image link and description
+    var src = $(this).attr("data-image-hd");
+    var cap = $(this).attr("alt");
+
+    // Add data to lighbox
+
+    $img.attr('src', src);
+    $caption.text(cap);
+
+    // Show lightbox
+
+    $lightbox.fadeIn('fast');
+
+    $lightbox.click(function() {
+      $lightbox.fadeOut('fast');
+    });
+  });
+
+}());</script>
     </div>
     <section id="shopify-section-template--24555788763443__multicolumn_3VG8GE" class="shopify-section section">
       <link
@@ -2605,6 +2637,9 @@
           }
         }
       </style>
+      <div class="market" style="margin: 20px 0;">
+        <span class="mart-text">Special Price for Corporate Gifting & Bulk Orders</span>
+      </div>
       <div class="multicolumn treasured_section color-background-1 gradient background-none">
         <div class="page-width section-template--24555788763443__multicolumn_3VG8GE-padding isolate">
           <div asd class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin"
@@ -2802,7 +2837,7 @@
                   <div class="multicolumn-card__info">
                     <div class="rte desc font_text color_black font_weight_400">
 
-                      <p>Tourist</p>
+                      <p>Travel</p>
                     </div><a class="link animate-arrow" href="#">
                       <span class="btn_txt">Buy Now</span>
                       <span class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
@@ -3026,7 +3061,8 @@
           }
         }
       </style>
-      <section class="best_sellers section-template--24555788763443__43489cf9-cc66-4660-ac72-60536b0acc48-padding" id="gallery_1">
+      <section class="best_sellers section-template--24555788763443__43489cf9-cc66-4660-ac72-60536b0acc48-padding"
+        id="gallery_1">
         <div class="page-width">
           <div class="popular_title">
             <div class="title-wrapper-with-link title-wrapper--no-top-margin" style="flex-direction:column;">
@@ -3039,6 +3075,9 @@
                 timeless treasures that captivate hearts and
                 delight
                 senses</p>
+                <div class="market">
+        <span class="mart-text">Special Price for Corporate Gifting & Bulk Orders</span>
+      </div>
             </div>
           </div>
 
@@ -3049,16 +3088,16 @@
                   Bags
                 </li>
                 <li class="col-lg-2 col-md-4 col-4 font_md " data-tab="tab-2">
-                  Glasses
+                  Statue
                 </li>
                 <li class="col-lg-2 col-md-4 col-4 font_md " data-tab="tab-3">
-                  Purses
-                </li>
-                <li class="col-lg-2 col-md-4 col-4 font_md " data-tab="tab-4">
                   Gifts
                 </li>
+                <li class="col-lg-2 col-md-4 col-4 font_md " data-tab="tab-4">
+                  Purses
+                </li>
                 <li class="col-lg-2 col-md-4 col-4 font_md " data-tab="tab-5">
-                  Murtiya(Statue)
+                  Glasses
                 </li>
               </ul>
             </nav>
@@ -3102,39 +3141,75 @@
               <div class="row">
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/glass-1.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/murti-1.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Glasses</h4>
+                      <h4>Statue</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/glass-2.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/murti-2.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Glasses</h4>
+                      <h4>Statue</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/glass-3.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/murti-3.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Glasses</h4>
+                      <h4>Statue</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/glass-4.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/murti-4.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Glasses</h4>
+                      <h4>Statue</h4>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div id="tab-3" class=" tab-content  grid product-grid grid--2-col-tablet-down grid--4-col-desktop">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 space">
+                  <div class="border">
+                    <img src="image/best-seller/gift-1.png" alt="Accordion Image 1" class="img-fluid">
+                    <div class="text">
+                      <h4>Gift Packaging</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 space">
+                  <div class="border">
+                    <img src="image/best-seller/packing-1.png" alt="Accordion Image 1" class="img-fluid">
+                    <div class="text">
+                      <h4>Gift Packaging</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 space">
+                  <div class="border">
+                    <img src="image/best-seller/gift-3.png" alt="Accordion Image 1" class="img-fluid">
+                    <div class="text">
+                      <h4>Gift Packaging</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 space">
+                  <div class="border">
+                    <img src="image/best-seller/packing-5.png" alt="Accordion Image 1" class="img-fluid">
+                    <div class="text">
+                      <h4>Gift Packaging</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-4" class=" tab-content  grid product-grid grid--2-col-tablet-down grid--4-col-desktop">
               <div class="row">
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
@@ -3170,73 +3245,37 @@
                 </div>
               </div>
             </div>
-            <div id="tab-4" class=" tab-content  grid product-grid grid--2-col-tablet-down grid--4-col-desktop">
-              <div class="row">
-                <div class="col-lg-3 col-md-4 col-6 space">
-                      <div class="border">
-                        <img src="image/best-seller/gift-1.png" alt="Accordion Image 1" class="img-fluid">
-                        <div class="text">
-                          <h4>Gift Packaging</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 space">
-                      <div class="border">
-                        <img src="image/best-seller/gift-2.png" alt="Accordion Image 1" class="img-fluid">
-                        <div class="text">
-                          <h4>Gift Packaging</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 space">
-                      <div class="border">
-                        <img src="image/best-seller/gift-3.png" alt="Accordion Image 1" class="img-fluid">
-                        <div class="text">
-                          <h4>Gift Packaging</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 space">
-                      <div class="border">
-                        <img src="image/best-seller/gift-4.png" alt="Accordion Image 1" class="img-fluid">
-                        <div class="text">
-                          <h4>Gift Packaging</h4>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-            </div>
             <div id="tab-5" class=" tab-content  grid product-grid grid--2-col-tablet-down grid--4-col-desktop">
               <div class="row">
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/murti-1.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/glass-1.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Murti</h4>
+                      <h4>Glasses</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/murti-2.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/glass-2.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Murti</h4>
+                      <h4>Glasses</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/murti-3.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/glass-3.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Murti</h4>
+                      <h4>Glasses</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6 space">
                   <div class="border">
-                    <img src="image/best-seller/murti-4.png" alt="Accordion Image 1" class="img-fluid">
+                    <img src="image/best-seller/glass-4.png" alt="Accordion Image 1" class="img-fluid">
                     <div class="text">
-                      <h4>Murti</h4>
+                      <h4>Glasses</h4>
                     </div>
                   </div>
                 </div>
@@ -3244,8 +3283,10 @@
             </div>
           </div>
           <div class="center collection_url_sec">
-            <a class="button font_weight_400 cmn_btn button--primary" href="gallery.html">Gallery</a>
+            <a class="button font_weight_400 cmn_btn button--primary" href="gallery.php">Gallery</a>
           </div>
+          <div class="blink"><span class="texting">Festive Specials Starting at Just </span><span class="blink2">
+          ₹99!</span></div>
         </div>
       </section>
 
@@ -3424,6 +3465,7 @@
           }
         }
       </style>
+
       <section
         class="category_section section_margin section-template--24555788763443__116758a2-1b1d-4de4-9df3-f6cd9df997b9-padding page-width occasion_section">
         <div class="title-wrapper-with-link title-wrapper--no-top-margin" style="flex-direction:column;">
@@ -3492,7 +3534,8 @@
 
         </div>
       </section>
-
+      <div class="blink"><span class="texting">Festive Specials Starting at Just </span><span class="blink2">
+          ₹99!</span></div>
     </div>
 
     <div id="shopify-section-template--24555788763443__1a2d7d67-33da-4b9e-89eb-9891e98752d6"
@@ -3584,17 +3627,12 @@
             class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item">
             <div
               class="image-with-text__media image-with-text__media--adapt gradient color-background-1 global-media-settings media"
-              style="padding-bottom: 92.02453987730063%;"><img
-                src="//thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=1500"
-                alt="wedding_gift.jpg"
-                srcset="//thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=165 165w, //thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=360 360w, //thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=535 535w, //thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=750 750w, //thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=1070 1070w, //thegiftstudio.com/cdn/shop/files/wedding_gift.jpg?v=1687527585&amp;width=1500 1500w"
+              style="padding-bottom: 92.02453987730063%;"><img src="image/big_image/wedding.png" alt="wedding_gift.jpg"
                 width="1500" height="1380" loading="lazy" class="small-hide" sizes="(min-width: 1300px) 600px,
             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
               <!--         <img class="img-responsive large-up-hide medium-hide" src="//thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726" alt="mob_img" loading="lazy"> -->
-              <img src="//thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=1500"
-                alt="wedding_gift.jpg"
-                srcset="//thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=165 165w, //thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=360 360w, //thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=535 535w, //thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=750 750w, //thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=1070 1070w, //thegiftstudio.com/cdn/shop/files/wedding_gift_mobile.jpg?v=1687528726&amp;width=1500 1500w"
-                width="1500" height="1500" loading="lazy" class="img-responsive large-up-hide medium-hide" sizes="(min-width: 1300px) 600px,
+              <img src="image/big_image/wedding.png" alt="wedding_gift.jpg" width="1500" height="1500" loading="lazy"
+                class="img-responsive large-up-hide medium-hide" sizes="(min-width: 1300px) 600px,
             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
             </div>
           </div>
@@ -3604,6 +3642,9 @@
               <h2 class="image-with-text__heading font_xxl h1">
                 Wedding Gifting
               </h2>
+              <div class="market2">
+        <span class="mart-text">Special Price for Corporate Gifting & Bulk Orders</span>
+      </div>
               <div class="image-with-text__text font_md font_weight_400 color_black rte body">
                 <p>Celebrate their union with timeless elegance.
                   Explore our curated collection of enchanting
@@ -3617,6 +3658,7 @@
                 class="button font_weight_400 cmn_btn button--primary">
                 Enquire Now
               </a>
+              
             </div>
           </div>
         </div>
@@ -3656,7 +3698,7 @@
           }
 
           .wedding_gift_section .image-with-text__text p {
-            text-align: center;
+            text-align: justify;
           }
 
           .wedding_gift_section .image-with-text__grid {
@@ -3704,17 +3746,12 @@
             class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item">
             <div
               class="image-with-text__media image-with-text__media--adapt gradient color-background-1 global-media-settings media"
-              style="padding-bottom: 92.14285714285715%;"><img
-                src="//thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1500"
-                alt="wedding-section-IMG_1.jpg"
-                srcset="//thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=165 165w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=360 360w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=535 535w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=750 750w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1070 1070w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1500 1500w"
-                width="1500" height="1382" loading="lazy" class="small-hide" sizes="(min-width: 1300px) 600px,
+              style="padding-bottom: 92.14285714285715%;"><img src="image/big_image/diwali.png"
+                alt="wedding-section-IMG_1.jpg" width="1500" height="1382" loading="lazy" class="small-hide" sizes="(min-width: 1300px) 600px,
             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
               <!--         <img class="img-responsive large-up-hide medium-hide" src="//thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615" alt="mob_img" loading="lazy"> -->
-              <img src="//thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1500"
-                alt="wedding-section-IMG_1.jpg"
-                srcset="//thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=165 165w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=360 360w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=535 535w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=750 750w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1070 1070w, //thegiftstudio.com/cdn/shop/files/wedding-section-IMG_1.jpg?v=1734530615&amp;width=1500 1500w"
-                width="1500" height="1382" loading="lazy" class="img-responsive large-up-hide medium-hide" sizes="(min-width: 1300px) 600px,
+              <img src="image/big_image/diwali.png" alt="wedding-section-IMG_1.jpg" width="1500" height="1382"
+                loading="lazy" class="img-responsive large-up-hide medium-hide" sizes="(min-width: 1300px) 600px,
             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
             </div>
           </div>
@@ -3724,6 +3761,9 @@
               <h2 class="image-with-text__heading font_xxl h1">
                 Looking for the Perfect Diwali Gift?
               </h2>
+              <div class="market2">
+        <span class="mart-text">Special Price for Corporate Gifting & Bulk Orders</span>
+      </div>
               <div class="image-with-text__text font_md font_weight_400 color_black rte body">
                 <p>We've got you covered</p>
               </div><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="javascript;"
@@ -3872,7 +3912,7 @@
           }
         }
       </style>
-
+      <!-- 
       <section
         class="testimonial_section section_margin section-template--24555788763443__44e68644-3ce5-453b-995b-15d6d7cb8043-padding page-width ">
         <div class="title-wrapper-with-link title-wrapper--no-top-margin" style="flex-direction:column;">
@@ -3996,7 +4036,7 @@
         <div class="progress progress_green progress3 small-hide">
           <div class="progress_bar"></div>
         </div>
-      </section>
+      </section> -->
 
     </div>
     <section id="shopify-section-template--24555788763443__2dcbf66e-06c1-4847-ad43-081470cca6b4"
@@ -4624,14 +4664,15 @@
     </section>
 
   </main>
-
+  <div class="blink"><span class="texting">Festive Specials Starting at Just </span><span class="blink2"> ₹99!</span>
+  </div>
   <div class="formings" id="contact">
-    <section class="contact_sec1">
+    <section>
 
       <div class="section-header">
         <div class="container">
           <h2>Contact Us</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing
+          <p class="text-justify">Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and
@@ -4648,7 +4689,7 @@
               <div class="contact-info-content">
                 <h4>Address</h4>
                 <p>C2 – 15th Floor, Wegmans Signature Tower,
-                  Exotech II, Greater Noida, Uttar Pradesh –
+                  Ecotech II, Greater Noida, Uttar Pradesh –
                   201306
                 </p>
               </div>
@@ -4673,23 +4714,19 @@
           </div>
 
           <div class="contact-form">
-            <form action id="contact-form">
+            <form id="contact-form" action="contact_page.php" method="post">
               <h2>Send Message</h2>
               <div class="input-box">
-                <input type="text" required="true" name>
-                <span>Full Name</span>
+                <input type="text" required="true" name="name"> <span>Full Name</span>
               </div>
               <div class="input-box">
-                <input type="email" required="true" name>
-                <span>Email</span>
+                <input type="email" required="true" name="email"> <span>Email</span>
               </div>
               <div class="input-box">
-                <input type="text" required="true" name>
-                <span>Contact</span>
+                <input type="text" required="true" name="mobile"> <span>Contact</span>
               </div>
               <div class="input-box">
-                <textarea required="true" name></textarea>
-                <span>Type your Message...</span>
+                <textarea required="true" name="msg"></textarea> <span>Type your Message...</span>
               </div>
               <div class="input-box">
                 <input type="submit" value="Send" name>
@@ -4759,7 +4796,7 @@
 
       .footer__blocks-wrapper {
         display: grid;
-        grid-template-columns: 350px repeat(4, 1fr);
+        grid-template-columns: 350px repeat(3, 1fr);
         row-gap: 2.5rem;
         column-gap: 5rem;
       }
@@ -5127,12 +5164,14 @@
           max-width: unset !important;
         }
       }
+
       @media screen and (max-width: 425px) {
 
         .contact_sec {
           grid-template-columns: none;
         }
       }
+
       @media screen and (max-width: 375px) {
 
         .footer__blocks-wrapper {
@@ -5164,6 +5203,12 @@
           font-size: 36px;
         }
       }
+
+      @media screen and (max-width: 991px) {
+        .disappear {
+          display: none;
+        }
+      }
     </style>
 
     <footer class="footer color-inverse gradient section-sections--24555787518259__footer-padding">
@@ -5171,8 +5216,8 @@
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet ">
           <div class="footer-block grid__item">
             <div class="footer-block__details-content footer-block-image center">
-              <div style="max-width: min(100%, 300px) width: 100% height: auto;">
-                <img src="logo_knot_1.png?v=1680978073&width=760" alt="revised-logo"
+              <div class style="max-width: min(100%, 300px); width: 100%; height: auto;">
+                <img srcset="logo_knot_1.png" src="logo_knot_1.png?v=1680978073&width=760" alt="revised-logo"
                   loading="lazy" width="100%" height="auto">
               </div>
               <div class="contact_sec">
@@ -5224,11 +5269,7 @@
           </div>
           <div class="footer-block grid__item footer-block--menu">
             <ul class="footer-block__details-content list-unstyled">
-              <li>
-                <a href="#" class="link link--text list-menu__item list-menu__item--link">
-                  Track Your Order
-                </a>
-              </li>
+
               <li>
                 <a href="#" class="link link--text list-menu__item list-menu__item--link">
                   Corporate Gifting
@@ -5239,28 +5280,9 @@
                   Wedding Gifting
                 </a>
               </li>
-            </ul>
-          </div>
-          <div class="footer-block grid__item footer-block--menu">
-            <ul class="footer-block__details-content list-unstyled">
               <li>
-                <a href="#" class="link link--text list-menu__item list-menu__item--link">
+                <a href="#" class="disappear link link--text list-menu__item list-menu__item--link">
                   Terms & Conditions
-                </a>
-              </li>
-              <li>
-                <a href="#" class="link link--text list-menu__item list-menu__item--link">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" class="link link--text list-menu__item list-menu__item--link">
-                  Refund Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" class="link link--text list-menu__item list-menu__item--link">
-                  Shipping Policy
                 </a>
               </li>
             </ul>
@@ -5392,22 +5414,12 @@
             </ul>
           </div>
           <ul class="policies list-unstyled large-up-hide">
-            <li>
-              <small class="copyright__content"><a class="font_light" href="#">Refund
-                  policy</a></small>
-            </li>
-            <li>
-              <small class="copyright__content"><a class="font_light" href="#">Privacy
-                  policy</a></small>
-            </li>
+
             <li>
               <small class="copyright__content"><a class="font_light" href="#">Terms &
                   Conditions</a></small>
             </li>
-            <li>
-              <small class="copyright__content"><a class="font_light" href="#">Shipping
-                  policy</a></small>
-            </li>
+
             <li>
               <small class="copyright__content"><a class="font_light" href="#">Contact
                   information</a></small>
@@ -5422,10 +5434,7 @@
             <div class="footer__copyright caption">
               <!-- <small class="copyright__content"><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a></small> -->
 
-              <small class="copyright__content font_light">&copy;
-                2025,
-                thegiftstudio.com All rights
-                reserved.</small>
+              <small class="copyright__content font_light">&copy; 2025, thegivingknot.com All rights reserved.</small>
 
               <!--
             <div class="ting_logo">
