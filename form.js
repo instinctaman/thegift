@@ -71,32 +71,40 @@ function handleSubmit(e) {
 }
 let currentCaptcha = "";
 
-    function generateCaptcha() {
-      const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
-      let captcha = "";
-      for (let i = 0; i < 6; i++) {
-        captcha += chars.charAt(Math.floor(Math.random() * chars.length));
-      }
-      currentCaptcha = captcha;
-      document.getElementById("captcha").innerText = captcha;
-      document.getElementById("captchaInput").value = "";
-      clearCaptchaError();
-    }
+function generateCaptcha() {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
+  let captcha = "";
+  for (let i = 0; i < 6; i++) {
+    captcha += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  currentCaptcha = captcha;
+  document.getElementById("captcha").innerText = captcha;
+  document.getElementById("captchaInput").value = "";
+  clearCaptchaError();
+}
+document.getElementById("myForm").addEventListener("submit", function (event) {
+  const userInput = document.getElementById("captchaInput").value.trim();
 
-    function validateCaptcha() {
-      const input = document.getElementById("captchaInput").value.trim();
-      if (input === currentCaptcha) {
-        // alert("CAPTCHA verified successfully!");
-      } else {
-        document.getElementById("captchaInput").classList.add("error");
-        document.getElementById("captchaError").style.display = "block";
-      }
-    }
+  if (userInput !== currentCaptcha) {
+    alert("❌ Wrong Captcha! Please Try Again.");
+    event.preventDefault(); // stop the form from submitting
+    generateCaptcha(); // regenerate captcha
+  }
+});
+function validateCaptcha() {
+  const input = document.getElementById("captchaInput").value.trim();
+  if (input === currentCaptcha) {
+    // alert("CAPTCHA verified successfully!");
+  } else {
+    document.getElementById("captchaInput").classList.add("error");
+    document.getElementById("captchaError").style.display = "block";
+  }
+}
 
-    function clearCaptchaError() {
-      document.getElementById("captchaInput").classList.remove("error");
-      document.getElementById("captchaError").style.display = "none";
-    }
+function clearCaptchaError() {
+  document.getElementById("captchaInput").classList.remove("error");
+  document.getElementById("captchaError").style.display = "none";
+}
 
-    // Initialize CAPTCHA on page load
-    window.onload = generateCaptcha;
+// Initialize CAPTCHA on page load
+window.onload = generateCaptcha;
